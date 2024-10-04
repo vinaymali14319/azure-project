@@ -77,7 +77,7 @@ resource "azurerm_storage_account" "dev_adls" {
   location                 = azurerm_resource_group.dev_rg.location
   account_tier             = "Standard"
   account_replication_type = "LRS"
-  enable_hierarchical_namespace = true
+  is_hns_enabled = true
 }
 
 # Create Databricks Workspace for Dev
@@ -110,7 +110,7 @@ resource "azurerm_storage_account" "prod_adls" {
   location                 = azurerm_resource_group.prod_rg.location
   account_tier             = "Standard"
   account_replication_type = "LRS"
-  enable_hierarchical_namespace = true
+  is_hns_enabled = true
 }
 
 # Create Databricks Workspace for Prod
