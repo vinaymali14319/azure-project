@@ -1,6 +1,5 @@
 # Provider Configuration
 provider "azurerm" {
-  features {}
 
   subscription_id = "2b2c2676-85a8-4a71-ac8f-7030a348ffe2"
   client_id       = "b3ae3bfa-8215-4010-a7bd-d1728a77e89d"
