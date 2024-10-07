@@ -1,7 +1,10 @@
 # Provider Configuration
 provider "azurerm" {
   features {}  
- 
+  subscription_id = "-ac8f-7030a348ffe2"
+  client_id       = "b3ae3bfa--d1728a77e89d"
+  client_secret   = "aNc8Q~Ja-QaECWdBcJvhrLGPa9P"
+  tenant_id       = "808ed4ca-d6ad--835b028a7072"
 }
 
 # ==================== VARIABLES ====================
