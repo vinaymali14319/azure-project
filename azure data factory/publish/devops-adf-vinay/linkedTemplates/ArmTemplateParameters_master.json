@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "devops-adf-vinay"
+		},
+		"bronze_ls_accessToken": {
+			"value": ""
+		},
+		"devops_ls_accessToken": {
+			"value": ""
+		},
+		"sql_ls_password": {
+			"value": ""
+		},
+		"sinked_sql_ls_accountKey": {
+			"value": ""
+		},
+		"sql_ls_properties_typeProperties_server": {
+			"value": "vinay-server-14319.database.windows.net"
+		},
+		"sql_ls_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"sql_ls_properties_typeProperties_userName": {
+			"value": "vinay-server-14319"
+		},
+		"sinked_sql_ls_properties_typeProperties_url": {
+			"value": "https://devopssavinay.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}

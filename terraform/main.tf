@@ -19,15 +19,15 @@ variable "prod_location" {
 }
 
 variable "dev_rg_name" {
-  default = "dev-vinay-rg"
+  default = "devops_project_vinay"
 }
 
 variable "prod_rg_name" {
-  default = "prod-vinay-rg"
+  default = "prod_azure_devops_databricks"
 }
 
 variable "dev_adf_name" {
-  default = "dev-vinay-adf"
+  default = "devops-vinay-adf"
 }
 
 variable "prod_adf_name" {
@@ -35,19 +35,21 @@ variable "prod_adf_name" {
 }
 
 variable "dev_adls_name" {
-  default = "devvinaymaliadls"     # must be unique
+  default = "devopssavinay"     # must be unique
 }
 
 variable "prod_adls_name" {
-  default = "prodvinaymaliadls"     # must be unique
+  default = "prodvinaysa"     # must be unique
 }
 
 variable "dev_databricks_name" {
-  default = "dev-vinay-databricks"
+  default = "dev-environment-databrics-cicd
+"
 }
 
 variable "prod_databricks_name" {
-  default = "prod-vinay-databricks"
+  default = "prod-environment-databrics-cicd
+"
 }
 
 variable "databricks_sku" {
